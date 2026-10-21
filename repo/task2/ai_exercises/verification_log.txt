@@ -1,0 +1,17 @@
+EX1 mismatches over 2000 random tests: 0
+EX1 n=2000: quadratic 0.1665s, hash 0.000504s
+EX1 n=4000: quadratic 0.5595s, hash 0.000589s
+EX1 n=8000: quadratic 2.2247s, hash 0.001317s
+EX2 SQL result: [(6, 'Course 6', 14, 8.36), (5, 'Course 5', 23, 8.35), (2, 'Course 2', 18, 8.28)]
+EX2 Python result: [(6, 'Course 6', 14, 8.36), (5, 'Course 5', 23, 8.35), (2, 'Course 2', 18, 8.28)]
+EX2 match (as sets): True
+EX3 brute force count n=10: 144 | F(12) = 144
+EX3 recurrence a(10) = 144
+EX4 192.168.10.0/27 hosts: 30 range 192.168.10.1 - 192.168.10.30 broadcast 192.168.10.31
+EX4 192.168.10.32/27 hosts: 30 range 192.168.10.33 - 192.168.10.62 broadcast 192.168.10.63
+EX4 192.168.10.64/27 hosts: 30 range 192.168.10.65 - 192.168.10.94 broadcast 192.168.10.95
+EX4 192.168.10.96/27 hosts: 30 range 192.168.10.97 - 192.168.10.126 broadcast 192.168.10.127
+EX4 192.168.10.128/27 hosts: 30 range 192.168.10.129 - 192.168.10.158 broadcast 192.168.10.159
+EX5 gantt: [('P1', 0, 4), ('P2', 4, 7), ('P3', 7, 11), ('P4', 11, 15), ('P1', 15, 16), ('P3', 16, 20), ('P4', 20, 22)]
+EX5 completion {'P2': 7, 'P1': 16, 'P3': 20, 'P4': 22} TAT {'P2': 6, 'P1': 16, 'P3': 18, 'P4': 19} WT {'P2': 3, 'P1': 11, 'P3': 10, 'P4': 13}
+EX5 avg WT 9.25 avg TAT 14.75
